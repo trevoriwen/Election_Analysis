@@ -3,11 +3,11 @@
 ## Project Analysis
 We were tasked by a Colorado Board of Elections employee to complete an election audit for a local congressional election. Below is the information needed to comeplete the audit.
 
-1. The total number of votes cast
-2. A complete list of candidates who received votes
-3. The percentage of votes each candidate won
-4. The total number of votes each candidate won
-5. The winner of the election based on popular vote
+1. The total number of votes cast.
+2. A complete list of candidates who received votes.
+3. The percentage of votes each candidate won.
+4. The total number of votes each candidate won.
+5. The winner of the election based on popular vote.
 
 ## Resources
 - Data Source: election_results.csv
@@ -28,7 +28,11 @@ The election analysis shows:
   - Candidate Diana DeGette, who recevied 73.8% of the vote and 272,892 number of votes.
 
 ## Challenge Overview
+As part of the elction analysis, there was an additional 
 
+6. The voter turnout for each county.
+7. The percentage of votes from each county.
+8. The county with the highest turnout.
 
 ## Challenge Summary
 
