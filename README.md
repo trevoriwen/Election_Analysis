@@ -1,20 +1,35 @@
 # Election_Analysis
 
 ## Overview of Election Audit
-We were tasked by a Colorado Board of Elections employee to complete an election audit for a local congressional election. To complete this audit we will have to provide a break down of the performance by county and candidate as well as determine the winner of the election. 
+We were tasked by a Colorado Board of Elections employee to complete an election audit for a local congressional election. To complete this audit we will have to provide a break down of the performance by county and candidate as well as determine the winner of the election. We will be writting a python script that will run the provided csv file and output the data we are looking for into a txt file.
+
+## Election Audit Process
+
 
 1. The total number of votes cast.
+Count the rows starting after the header row
+
 2. A complete list of candidates who received votes.
+Got candidate name from the value in column C via candidate_name = row[2]
+Made cadidate list with not duplicate names via candidate_options.append(candidate_name)
+
 3. The percentage of votes each candidate won.
+
+
 4. The total number of votes each candidate won.
+
+
 5. The winner of the election based on popular vote.
+
+
 6. The voter turnout for each county.
+
+
 7. The percentage of votes from each county.
+
+
 8. The county with the highest turnout.
 
-## Resources
-- Data Source: election_results.csv
-- Software: Python 3.8.2, Visual Studio Code, 1.73.1
 
 ## Election Audit Results
 The election analysis shows:
