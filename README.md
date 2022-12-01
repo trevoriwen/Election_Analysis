@@ -6,30 +6,40 @@ We were tasked by a Colorado Board of Elections employee to complete an election
 ## Election Audit Process
 
 
-1. The total number of votes cast.
+**1. The total number of votes cast.**
 Count the rows starting after the header row
 
-2. A complete list of candidates who received votes.
+![Counting Total Votes Code](Resources/images/election_total_vote.PNG)
+
+**2. A complete list of candidates who received votes.**
+
 Got candidate name from the value in column C via candidate_name = row[2]
 Made cadidate list with not duplicate names via candidate_options.append(candidate_name)
 
-3. The percentage of votes each candidate won.
+![Creating Candidate List Code](Resources/images/election_candidate_list.PNG)
+
+**3. The percentage of votes each candidate won.**
+
+![Calculating Candidate Percent and Total Votes Code](Resources/images/election_percent_total_votes.PNG)
+
+**4. The total number of votes each candidate won.**
 
 
-4. The total number of votes each candidate won.
+**5. The winner of the election based on popular vote.**
+
+![Election Winner Summary Code](Resources/images/election_winner.PNG)
+
+**6. The voter turnout for each county.**
+
+![Variable for Counting County Votes Code](Resources/images/election_percent_total_county_1.PNG)
+![Calculating County Breakdown Code](Resources/images/election_percent_total_county_2.PNG)
+
+**7. The percentage of votes from each county.**
 
 
-5. The winner of the election based on popular vote.
+**8. The county with the highest turnout.**
 
-
-6. The voter turnout for each county.
-
-
-7. The percentage of votes from each county.
-
-
-8. The county with the highest turnout.
-
+![Largest County Turnout Code](Resources/images/election_largest_county_turnout.PNG)
 
 ## Election Audit Results
 The election analysis shows:
